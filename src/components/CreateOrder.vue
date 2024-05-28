@@ -21,8 +21,8 @@
         <div v-for="(item, index) in goods" :key="index" class="goods-item">
           <img :src="item.image" class="goods-thumb" />
           <div class="goods-info">
-            <div>{{ item.name }}</div>
-            <div>{{ item.price }} x {{ item.count }}</div>
+            <div style="color: black;">{{ item.name }}</div>
+            <div style="color: black;">{{ item.price }} x {{ item.count }}</div>
           </div>
         </div>
       </van-cell-group>

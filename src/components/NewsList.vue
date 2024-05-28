@@ -141,6 +141,7 @@
     .news-title {
       font-size: 16px;
       margin-bottom: 5px;
+      color: black;
     }
   
     .news-meta {
