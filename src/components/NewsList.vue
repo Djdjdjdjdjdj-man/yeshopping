@@ -44,7 +44,6 @@
       console.log(res);
     } catch (error) {
       console.error('加载失败:', error);
-      // 使用 vue-toastification 或者其他方式显示错误信息
     }
   }
   
