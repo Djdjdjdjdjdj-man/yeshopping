@@ -1,6 +1,6 @@
 <template>
   <div>
-
+      <router-view></router-view>
   </div>
 </template>
 
@@ -9,5 +9,6 @@
 </script>
 
 <style lang="scss" scoped>
+
 
 </style>
